@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+80s+Fade&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+  --linera-gradient-primary: linear-gradient(
+    45deg,
+    rgb(57, 57, 57),
+    rgb(0, 0, 0)
+  );
+}
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  border: none !important;
+  outline: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(45deg, #04000c, black);
+}
+
+body .h1-title {
+  color: #fff;
+  padding: 10px 0 !important;
+  font-weight: 500;
+}
+
+body .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .container .left {
+  width: 100%;
+  padding: 30px !important;
+}
+
+body .container .left .quickstart {
+  padding: 10px 30px !important;
+  width: 100%;
+  background: var(--linera-gradient-primary);
+  margin-top: 30px !important;
+  border-radius: 10px;
+}
+
+body .container .left .quickstart ul li a {
+  color: #fff;
+  font-size: 15px;
+}
+
+body .container .right {
+  width: 40%;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body .container .right .card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+body .container .right .card iframe {
+  width: 100%;
+  height: 100vh;
+  border: none;
+  border-left: 1px solid #28004a;
+}
+
+.gsc-control-cse {
+  background: transparent !important;
+}
+
+.gsc-search-box {
+  background: transparent !important;
+}
+
+.gs_tti50 {
+  width: 100% !important;
+  padding: 1px !important;
+  background: var(--linera-gradient-primary) !important;
+  border-radius: 10px !important;
+}
+
+td#gs_tti50 {
+  background: #000 !important;
+}
+
+input.gsc-input {
+  width: 100% !important;
+  padding: 20px 20px !important;
+  border-radius: 10px !important;
+  background: #000 !important;
+  border: none !important;
+  outline: none !important;
+  border: 1px solid #3d3d3d !important;
+  color: #fff !important;
+  font-size: 15px !important;
+}
+
+input.gsc-input:focus {
+  border: 1px solid #9000ff !important;
+}
+
+.gsc-search-button {
+  display: none;
+}
+
+.table {
+  border: none !important;
+  background: #fff !important;
+}
+
+td.gsib_b {
+  display: none;
+}
+
+.gsq_a td {
+  padding: 10px !important;
+  background: #000000;
+  color: #fff !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+          backdrop-filter: blur(20px) !important;
+  cursor: pointer !important;
+}
+
+.gsq_a td:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+
+.gsc-modal-background-image {
+  background: #000 !important;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.gsc-results-wrapper-visible {
+  position: fixed !important;
+  top: 0 !important;
+  right: 0 !important;
+  -webkit-transform: translateX(76%);
+          transform: translateX(76%);
+  width: 50% !important;
+  height: 100vh !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  padding: 30px !important;
+  background: transparent !important;
+}
+
+.gsc-resultsRoot {
+  background: transparent !important;
+  color: #000000 !important;
+  padding: 20px !important;
+  border-radius: 20px !important;
+}
+
+.gsc-resultsRoot a {
+  color: #ff9500 !important;
+  font-size: 20px !important;
+}
+
+.gsc-resultsRoot a b {
+  color: #ff9500 !important;
+  font-size: 22px !important;
+}
+
+.gs-image-box {
+  width: 100vw;
+  background: #000;
+  display: block;
+}
+
+.gs-image {
+  display: block !important;
+  width: 300px !important;
+}
+
+.gsc-table-result {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+          flex-direction: column !important;
+}
+
+.gs-bidi-start-align {
+  color: #ffffff !important;
+  padding: 5px 0 !important;
+  word-spacing: 3px !important;
+}
+
+.gs-bidi-start-align span {
+  color: #c5c5c5;
+}
+
+.gsc-above-wrapper-area-container {
+  display: none;
+}
+
+.gsc-expansionArea {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+  width: 100% !important;
+}
+
+.gsc-expansionArea .gsc-webResult {
+  padding: 20px !important;
+  -webkit-box-shadow: 0 5px 5px #000000 !important;
+          box-shadow: 0 5px 5px #000000 !important;
+  width: 100% !important;
+  background: var(--linera-gradient-primary) !important;
+  margin: 10px !important;
+  border-radius: 10px !important;
+}
+
+@-webkit-keyframes rotateAnimation {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotateAnimation {
+  from {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
